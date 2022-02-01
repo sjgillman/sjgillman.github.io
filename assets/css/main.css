@@ -152,6 +152,7 @@ input, select, textarea {
 	h3 {
 		font-size: 1.15em;
 		letter-spacing: 0.025em;
+		margin-bottom: 0px;
 	}
 
 	sub {
@@ -1729,7 +1730,7 @@ input, select, textarea {
 	}
 
 	header.special {
-		margin-bottom: 5em;
+		margin-bottom: 0em;
 		padding-top: 7em;
 		position: relative;
 		text-align: center;
