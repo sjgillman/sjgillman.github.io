@@ -1758,7 +1758,7 @@ input, select, textarea {
 
 		header.special h2 + p {
 			margin-bottom: 0;
-			padding-top: 1.5em;
+			padding-top: 0em;
 		}
 
 		header.special .icon {
