@@ -127,13 +127,14 @@ input, select, textarea {
 	p, ul, ol, dl, table, blockquote {
 		margin: 0 0 2em 0;
 		margin-top: 0px;
+		margin-bottom: 0px;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
 		color: inherit;
 		font-weight: 300;
 		line-height: 1.75em;
-		margin-bottom: 1em;
+		margin-bottom: 0em;
 		text-transform: uppercase;
 	}
 
@@ -1762,6 +1763,7 @@ input, select, textarea {
 		header.special h2 + p {
 			margin-bottom: 0;
 			padding-top: 0em;
+			margin-bottom: 0em;
 		}
 
 		header.special .icon {
