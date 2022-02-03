@@ -178,7 +178,10 @@ input, select, textarea {
 		font-style: italic;
 		padding: 1em 0 1em 2em;
 	}
-	emphasis {
+	.emphasized {
+			font-style: italic;
+	}
+	emphasized {
 			font-style: italic;
 	}
 
