@@ -178,6 +178,9 @@ input, select, textarea {
 		font-style: italic;
 		padding: 1em 0 1em 2em;
 	}
+	emphasis {
+			font-style: italic;
+	}
 
 /* Container */
 
