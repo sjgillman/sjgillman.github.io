@@ -1,6 +1,6 @@
 # Repository for my webpage
 
-I used a template called *Twenty* by [html5up](html5up.net) and is free for personal and commercial use under the CCA 3.0 license (html5up.net/license)...
+I used a template called *Twenty* by [html5up](https://html5up.net/twenty) and is free for personal and commercial use under the CCA 3.0 license (html5up.net/license)...
 
 
 
