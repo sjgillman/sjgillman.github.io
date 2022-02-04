@@ -2543,7 +2543,14 @@ input, select, textarea {
 	}
 
 		#banner .inner {
-
+			-moz-animation: none;
+			-webkit-animation: none;
+			-ms-animation: none;
+			animation: none;
+			-moz-animation-fill-mode: forwards;
+			-webkit-animation-fill-mode: forwards;
+			-ms-animation-fill-mode: forwards;
+			animation-fill-mode: forwards;
 			background: rgba(52, 27, 43, 0.5);
 			color: #fff;
 			display: inline-block;
