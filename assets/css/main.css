@@ -2409,12 +2409,7 @@ input, select, textarea {
 						font-weight: 900;
 					}
 
-		#header.reveal {
-			-moz-animation: reveal-header 0.5s;
-			-webkit-animation: reveal-header 0.5s;
-			-ms-animation: reveal-header 0.5s;
-			animation: reveal-header 0.5s;
-		}
+	
 
 		#header.alt {
 			-moz-animation: none;
