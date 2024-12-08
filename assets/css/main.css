@@ -18,9 +18,33 @@ body, input, select, textarea {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  line-height: 1.4em; /* Reduced line-height for headers */
-  margin-bottom: 0.8em; /* Reduced margin for headers */
+    color: inherit; /* Keeps the text color consistent */
+    font-weight: 700; /* Bolder text */
+    line-height: 1.2em; /* Reduced line height for closer spacing */
+    margin-bottom: 0.5em; /* Adjusts the space below the header */
+    letter-spacing: 0.02em; /* Slightly tighter character spacing */
 }
+
+h1 {
+    font-size: 2em; /* Adjust font size for h1 */
+}
+
+h2 {
+    font-size: 1.75em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+h4 {
+    font-size: 1.25em;
+}
+
+h5, h6 {
+    font-size: 1em;
+}
+
 
 p, ul, ol, dl, blockquote {
   margin-bottom: 1.5em; /* Reduced spacing between blocks */
