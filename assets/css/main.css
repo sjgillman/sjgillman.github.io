@@ -1,3 +1,95 @@
+
+:root {
+  --primary-color: #2E8B57; /* Evergreen Forest Green */
+  --secondary-color: #4682B4; /* Ocean Mist Blue */
+  --neutral-color: #A9A9A9; /* Cascadia Gray */
+  --text-color: #333333; /* Dark text color */
+  --background-color: #f3f6fa; /* Light background */
+}
+
+/* General font and spacing adjustments */
+body, input, select, textarea {
+  color: var(--text-color);
+  font-family: 'Lato', sans-serif;
+  font-size: 13pt; /* Reduced font size */
+  font-weight: 300;
+  letter-spacing: 0.02em; /* Reduced letter-spacing */
+  line-height: 1.6em; /* Reduced line-height for tighter spacing */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.4em; /* Reduced line-height for headers */
+  margin-bottom: 0.8em; /* Reduced margin for headers */
+}
+
+p, ul, ol, dl, blockquote {
+  margin-bottom: 1.5em; /* Reduced spacing between blocks */
+}
+
+/* Buttons */
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+button,
+.button {
+  background-color: var(--primary-color);
+  color: #fff;
+  border: solid 1px var(--primary-color);
+  padding: 0.4em 0.8em; /* Reduced padding */
+  font-size: 0.9em; /* Reduced font size */
+  text-transform: uppercase;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+input[type="button"]:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+button:hover,
+.button:hover {
+  background-color: var(--secondary-color);
+  border-color: var(--secondary-color);
+}
+
+/* Links */
+a {
+  color: var(--primary-color);
+}
+
+a:hover {
+  color: var(--secondary-color);
+}
+
+/* Containers and Rows */
+.container {
+  max-width: 1200px; /* Reduced container width for tighter layout */
+  padding: 1em; /* Reduced padding */
+}
+
+.row {
+  margin: -10px; /* Reduced row margins */
+}
+
+.row > * {
+  padding: 10px; /* Reduced padding for grid items */
+}
+
+/* Section and Article */
+section.special, article.special {
+  text-align: center;
+  margin-bottom: 2em; /* Reduced section margin */
+}
+
+header.major {
+  padding-bottom: 1.5em; /* Reduced padding */
+}
+
+/* Footer */
+#footer {
+  padding: 3em; /* Reduced footer padding */
+  background: var(--background-color);
+  color: var(--text-color);
+}
+
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400,900");
 
