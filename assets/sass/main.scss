@@ -970,63 +970,20 @@ $pattern-background-size: 25em;
 	}
 
 	#banner {
-		background-attachment: scroll, scroll, scroll, fixed;
-		background-color: _palette(three, bg);
-		background-image: url('images/light-bl.svg'), url('images/light-br.svg'),  url('../../images/banner.jpg');
-		background-position: bottom left, bottom right, top left, top center;
-		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
-		background-size: $pattern-background-size, $pattern-background-size, auto, cover;
-		color: _palette(banner, fg);
-		cursor: default;
-		padding: 6em 0;
-		text-align: center;
-		margin-top: 10px;
-
-		.inner {
-
-			background: transparentize(_palette(banner, inner-bg), 0.5);
-			color: _palette(banner, inner-fg);
-			display: inline-block;
-			opacity: 0;
-			padding: 3em;
-			text-align: center;
-
-			header {
-				display: inline-block;
-				border-bottom: solid 2px;
-				border-top: solid 2px;
-				margin: 0 0 2em 0;
-				padding: 3px 0 3px 0;
-
-				h2 {
-					border-bottom: solid 2px;
-					border-top: solid 2px;
-					font-size: 2.5em;
-					font-weight: 900;
-					letter-spacing: 0.2em;
-					margin: 0;
-					padding-left: 0.05em;
-					position: relative;
-					text-transform: uppercase;
-				}
-			}
-
-			p {
-				letter-spacing: 0.1em;
-				margin: 0;
-				text-transform: uppercase;
-
-				a {
-					color: inherit;
-					font-weight: 400;
-					text-decoration: none;
-				}
-			}
-
-			footer {
-				margin: 2em 0 0 0;
-			}
+		    background-image: url('../../images/banner.jpg'); /* Only include the main banner image */
+		    background-position: center top; /* Adjust to show the desired portion of the image */
+		    background-repeat: no-repeat; /* Prevent tiling */
+		    background-size: cover; /* Scale the image proportionally to cover the space */
+		    height: 40vh; /* Set the banner height to control visible area */
+		    margin-top: 10px; /* Optional margin adjustments */
+		    overflow: hidden; /* Hide excess image outside the banner bounds */
+		    padding: 0; /* Remove unnecessary padding */
+		    text-align: center; /* Center content if needed (not applicable here) */
 		}
+		
+		/* Optional: Remove or comment out the .inner block if unused */
+		#banner .inner {
+		    display: none; /* Disable the inner content */
 	}
 
 /* Main */
