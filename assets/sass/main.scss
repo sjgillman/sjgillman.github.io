@@ -1113,8 +1113,12 @@ $size-header-pad: 4em;
 		}
 
 		.image.avatar {
-			width: 200%; 
-    			height: auto;
+			  padding: 0 !important; /* Removes unwanted padding */
+			  margin: auto;          /* Centers the avatar if needed */
+			  display: block;        /* Ensures proper block display */
+			  border-radius: 50%;    /* Maintains circular appearance */
+			  width: 100px;          /* Set an explicit width */
+			  height: 100px;         /* Set an explicit height */
 		}
 	}
 
