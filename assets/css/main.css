@@ -7,6 +7,14 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+:root {
+  --primary-color: #2E8B57; /* Evergreen Forest Green */
+  --secondary-color: #4682B4; /* Ocean Mist Blue */
+  --neutral-color: #A9A9A9; /* Cascadia Gray */
+  --text-color: #333333; /* Optional: dark gray for text */
+  --background-color: #f3f6fa; /* Optional: light background */
+}
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
