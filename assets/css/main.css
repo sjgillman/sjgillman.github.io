@@ -2147,10 +2147,8 @@ input, select, textarea {
 			}
 
 			.image.avatar img {
-				max-width: 150px;
-    				height: auto;
-    				display: block;
-    				margin: 0 auto;
+				border-radius: 100%;
+				width: 100%;
 			}
 
 /* List */
@@ -2648,9 +2646,8 @@ input, select, textarea {
 		}
 
 		#header .image.avatar {
-			width: 150px;
-			height: 150px;
-			margin-bottom: 1em;
+			margin: 0 0 1em 0;
+			width: 6.25em;
 		}
 
 /* Footer */
