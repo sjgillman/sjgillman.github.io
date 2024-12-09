@@ -2582,55 +2582,36 @@ input, select, textarea {
 /* Header */
 
 	#header {
-		display: -moz-flex;
-		display: -webkit-flex;
-		display: -ms-flex;
-		display: flex;
-		-moz-flex-direction: column;
-		-webkit-flex-direction: column;
-		-ms-flex-direction: column;
-		flex-direction: column;
-		-moz-align-items: -moz-flex-end;
-		-webkit-align-items: -webkit-flex-end;
-		-ms-align-items: -ms-flex-end;
-		align-items: flex-end;
-		-moz-justify-content: space-between;
-		-webkit-justify-content: space-between;
-		-ms-justify-content: space-between;
-		justify-content: space-between;
-		background-color: #1f1815;
-		background-attachment: scroll,scroll;
-		background-image: url("images/overlay.png"), url("../../images/headerimg.jpg"); 
-		background-position: top left, center center;	
-		background-repeat: repeat, no-repeat;
-		background-size: auto, 150%;
-		color: rgba(255, 255, 255, 0.5);
-		height:  auto;
-		min-height: 100vh;
-		left: 0;
-		padding: 8em 4em;
-		position: relative;
-		text-align: right;
-		top: 0;
-		width: 35%;
+		    display: flex; /* Ensure flexbox layout */
+		    flex-direction: column; /* Stack content vertically */
+		    justify-content: space-between; /* Distribute content */
+		    align-items: flex-end; /* Align content to the right */
+		    position: fixed; /* Fix header to the side of the viewport */
+		    top: 0;
+		    left: 0;
+		    width: 35%; /* Adjust as needed for the side width */
+		    height: 100vh; /* Full viewport height */
+		    background-color: #1f1815;
+		    background-image: url("images/overlay.png"), url("../../images/headerimg.jpg");
+		    background-position: top left, center center;
+		    background-repeat: no-repeat, no-repeat;
+		    background-size: auto, cover;
+		    padding: 8em 4em;
+		    color: rgba(255, 255, 255, 0.5);
+		    text-align: right;
+		    box-sizing: border-box; /* Ensure padding is included in dimensions */
+		    z-index: 10; /* Ensure it stays on top of the main content */
+		}
 		
-	}
-
 		#header > * {
-			-moz-flex-shrink: 0;
-			-webkit-flex-shrink: 0;
-			-ms-flex-shrink: 0;
-			flex-shrink: 0;
-			width: 100%;
+		    width: 100%; /* Ensure children take full width of the header */
+		}
+		
+		#header .inner {
+		    flex-grow: 1; /* Let this section grow to fill available space */
+		    margin-bottom: 2em; /* Add spacing at the bottom */
 		}
 
-		#header > .inner {
-			-moz-flex-grow: 1;
-			-webkit-flex-grow: 1;
-			-ms-flex-grow: 1;
-			flex-grow: 1;
-			margin: 0 0 2em 0;
-		}
 
 		#header strong, #header b {
 			color: #ffffff;
