@@ -2641,7 +2641,7 @@ input, select, textarea {
 			color: rgba(255, 255, 255, 0.5);
 			font-size: 1.35em;
 			line-height: 1.75em;
-			margin: 0;
+			margin: 1em;
 		}
 
 		#header .image.avatar {
