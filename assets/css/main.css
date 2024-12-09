@@ -2138,7 +2138,7 @@ input, select, textarea {
 		  margin: 0 auto;          /* Centers the avatar if needed */
 		  height: auto;
 		  display: block;
-		  border-radius: 75%;    /* Maintains circular appearance */
+		  border-radius: 50%;    /* Maintains circular appearance */
 		  max-width: 150%;          /* Set an explicit width */
 		}
 
@@ -2647,7 +2647,7 @@ input, select, textarea {
 
 		#header .image.avatar {
 			margin: 0 0 1em 0;
-			width: 6.25em;
+			width: 10em;
 		}
 
 /* Footer */
