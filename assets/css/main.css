@@ -2599,11 +2599,11 @@ input, select, textarea {
 			-ms-justify-content: space-between;
 			justify-content: space-between;
 			background-color: #1f1815;
-			background-attachment: scroll,								scroll;
-			background-image: url("images/overlay.png"), url("../../images/headerimg.jpg");
-			background-position: top left, center center;
-			background-repeat: no-repeat, no-repeat;
-			background-size: auto, cover;
+			background-attachment: scroll;
+			background-image: url("../../images/headerimg.jpg");
+			background-position: center center;
+			background-repeat: no-repeat;
+			background-size: cover;
 			padding: 8em 4em;
 			color: rgba(255, 255, 255, 0.5);
 			text-align: right;
