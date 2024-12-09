@@ -2134,11 +2134,12 @@ input, select, textarea {
 			}
 
 		.image.avatar {
-		  padding: 10px !important; /* Removes unwanted padding */
-		  margin: auto;          /* Centers the avatar if needed */
-		  border-radius: 50%;    /* Maintains circular appearance */
-		  width: 150%;          /* Set an explicit width */
-		  height: 150%;         /* Set an explicit height */
+		  padding: 5px !important; /* Removes unwanted padding */
+		  margin: 0 auto;          /* Centers the avatar if needed */
+		  height: auto;
+		  display: block;
+		  border-radius: 75%;    /* Maintains circular appearance */
+		  max-width: 150%;          /* Set an explicit width */
 		}
 
 			.image.avatar:before {
