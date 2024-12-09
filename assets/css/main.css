@@ -2137,8 +2137,8 @@ input, select, textarea {
 		  padding: 10px !important; /* Removes unwanted padding */
 		  margin: auto;          /* Centers the avatar if needed */
 		  border-radius: 50%;    /* Maintains circular appearance */
-		  width: 100%;          /* Set an explicit width */
-		  height: 100%;         /* Set an explicit height */
+		  width: 150%;          /* Set an explicit width */
+		  height: 150%;         /* Set an explicit height */
 		}
 
 			.image.avatar:before {
