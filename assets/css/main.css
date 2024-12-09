@@ -2610,6 +2610,7 @@ input, select, textarea {
 		text-align: right;
 		top: 0;
 		width: 35%;
+		overflow-y: scroll;
 		gap: 1em;
 	}
 
