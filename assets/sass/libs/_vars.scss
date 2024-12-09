@@ -39,7 +39,7 @@
 			bg:				#595e76,
 			fg:				mix(#595e76, #ffffff, 25%),
 			fg-bold:		#ffffff,
-			fg-light:		mix(#595e76, #ffffff, 40%),
+			fg-light:		mix(#595e76, #ffffff, 60%),
 			border:			rgba(255,255,255,0.25),
 			border-bg:		rgba(255,255,255,0.075),
 			border2:		rgba(255,255,255,0.5),
@@ -48,12 +48,12 @@
 
 		accent2: (
 			bg:				#1f1815,
-			fg:				rgba(255,255,255,0.75),
+			fg:				rgba(200,200,200,0.75),
 			fg-bold:		#ffffff,
-			fg-light:		rgba(255,255,255,0.75),
-			border:			rgba(255,255,255,0.25),
-			border-bg:		rgba(255,255,255,0.075),
-			border2:		rgba(255,255,255,0.5),
-			border2-bg:		rgba(255,255,255,0.2)
+			fg-light:		rgba(200,200,200,0.75),
+			border:			rgba(200,200,200,0.25),
+			border-bg:		rgba(200,200,200,0.075),
+			border2:		rgba(200,200,200,0.5),
+			border2-bg:		rgba(200,200,200,0.2)
 		)
 	);
