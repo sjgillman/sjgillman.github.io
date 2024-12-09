@@ -2646,10 +2646,15 @@ input, select, textarea {
 		}
 
 		#header .image.avatar {
-			margin: 0 0 1em 0;
-			width: 10em;
+		    display: block; /* Ensures proper block-level layout */
+		    margin: 0 auto; /* Centers the avatar horizontally */
+		    border-radius: 50%; /* Makes the image circular */
+		    max-width: 200px; /* Sets a consistent maximum size */
+		    width: 80%; /* Allows responsiveness while maintaining proportions */
+		    height: auto; /* Maintains aspect ratio */
+		    align-self: flex-end; /* Aligns the avatar image to the right within the flexbox container */
+		    padding: 10px; /* Optional: Adds spacing around the image */
 		}
-
 /* Footer */
 
 	#footer .icons {
