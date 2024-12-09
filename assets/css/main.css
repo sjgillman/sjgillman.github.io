@@ -2134,7 +2134,7 @@ input, select, textarea {
 			}
 
 		.image.avatar {
-		  padding: 0 !important; /* Removes unwanted padding */
+		  padding: 10px !important; /* Removes unwanted padding */
 		  margin: auto;          /* Centers the avatar if needed */
 		  border-radius: 50%;    /* Maintains circular appearance */
 		  width: 100%;          /* Set an explicit width */
