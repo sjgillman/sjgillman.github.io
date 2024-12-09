@@ -2598,7 +2598,7 @@ input, select, textarea {
 		justify-content: space-between;
 		background-color: #1f1815;
 		background-attachment: scroll,scroll;
-		background-image: url("images/overlay.png"), url("../../images/headerimg.jpg"); 
+		background-image: url("../../images/headerimg.jpg"); 
 		background-position: center center, center center;	
 		background-repeat: no-repeat, no-repeat;
 		background-size: auto, 200%;
@@ -2610,7 +2610,7 @@ input, select, textarea {
 		text-align: right;
 		top: 0;
 		width: 35%;
-		overflow-y: scroll;
+		
 	}
 
 		#header > * {
