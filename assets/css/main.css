@@ -2603,10 +2603,11 @@ input, select, textarea {
 		background-repeat: repeat, no-repeat;
 		background-size: auto, 150%;
 		color: rgba(255, 255, 255, 0.5);
-		height:  125%;
+		height:  auto;
+		min-height: 100vh;
 		left: 0;
 		padding: 8em 4em;
-		position: fixed;
+		position: relative;
 		text-align: right;
 		top: 0;
 		width: 35%;
