@@ -1117,8 +1117,8 @@ $size-header-pad: 4em;
 			  margin: auto;          /* Centers the avatar if needed */
 			  display: block;        /* Ensures proper block display */
 			  border-radius: 75%;    /* Maintains circular appearance */
-			  width: 200px;          /* Set an explicit width */
-			  height: 200px;         /* Set an explicit height */
+			  width: 100%;          /* Set an explicit width */
+			  height: 100%;         /* Set an explicit height */
 		}
 	}
 
