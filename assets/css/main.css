@@ -2601,9 +2601,9 @@ input, select, textarea {
 		background-image: url("images/overlay.png"), url("../../images/headerimg.jpg"); 
 		background-position: center center, center center;	
 		background-repeat: no-repeat, no-repeat;
-		background-size: 200%, 200%;
+		background-size: auto, 200%;
 		color: rgba(255, 255, 255, 0.5);
-		height: 150%;
+		height: 125%;
 		left: 0;
 		padding: 8em 4em;
 		position: fixed;
@@ -2611,7 +2611,6 @@ input, select, textarea {
 		top: 0;
 		width: 35%;
 		overflow-y: scroll;
-		gap: 1em;
 	}
 
 		#header > * {
