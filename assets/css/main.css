@@ -2111,7 +2111,7 @@ input, select, textarea {
 
 		.image.right {
 			float: right;
-			margin: 0 0 1em 1.5em;
+			margin: 0 0 1em 0;
 			top: 0.25em;
 		}
 
